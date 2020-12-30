@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #71f5be;
+}
+
+#outputMsg {
+  padding: 1rem 1rem;
+}
