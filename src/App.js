@@ -16,7 +16,7 @@ export default function App() {
   }
   function datePickerHandler(date) {
     setStartDate(date);
-    var birthYear = date.getFullYear();
+    const birthYear = date.getFullYear();
 
     if (checkLeap(birthYear) === true) {
       setLeapMessage("Congratulations! You are born in a leap year");
